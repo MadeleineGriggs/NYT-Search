@@ -10,12 +10,14 @@
 
 .nav {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 1rem;
     padding: 2rem;
     font-size: 3rem;
     background-color: var(--dark-blue);
     color: var(--white);
     margin-bottom: 2rem;
+  
+   
 }
 
 .container {
