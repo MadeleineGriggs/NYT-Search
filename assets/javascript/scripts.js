@@ -20,8 +20,12 @@
       method: 'GET',
       data : {"api-key" : "UfytFzKYLYX0qYtegUyshF4EJzvtK0jW", "q" : a, "begin_date" : b + '0101' , "end_date" : c + '1231'},
     }).then(function(response){
+        var hits = response.response.meta.hits;
+        console.log(hits);
+        $(".articles-container").prepend("<P>"+ hits + " total articles found that match your search.");
         // console.log(response);
-        console.log(response.response.docs);
+        // console.log(response.meta.hits);
+        // console.log(response.response.docs);
         (response.response.docs).forEach(entry => {
             var title = $("<a>").attr('href', entry.web_url);
             title.text(entry.headline.main);
