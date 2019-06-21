@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,45 +9,55 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>NYT Search</title>
 </head>
+
 <body>
-    
-<h1>
-New York Times Search
-</h1>
+    <i class="fas fa-file-word"></i>
+    <h1>
+        New York Times Search
+    </h1>
+    <div class="search-container">
+        <h2>Search Parameters</h2>
+        <form class="search-form">
+            <div>
+                <label for="search-Term">Search Term: </label>
+                <br>
+                <input type="text" name="search-Term">
+            </div>
+            <div>
+                <label for="number-of-records">Number of Records
+                    <br>
+                    <input type="number" name="number-of-records">
+            </div>
+            <div>
+                <label for="start-year">Start Year (Optional) </label>
+                <br>
+                <input type="text" name="start-year">
+            </div>
+            <div>
+                <label for="end-year">End Year (Optional) </label>
+                <br>
+                <input type="text" name="end-year">
+            </div>
+            <button id="search">Search</button>
+            <button id="clear-results">Clear Results</button>
+        </form>
+    </div>
 
-<form>
     <div>
-        <label for="search-Term">Search Term: </label>
-        <input type="text" name="search-Term">
-    </div>
-    <div>
-        <label for="number-of-records">Number of Records to Retrieve </label>
-        <input type="number" name="number-of-records">
-    </div>
-    <div>
-        <label for="start-year">Start Year (Optional) </label>
-        <input type="text" name="start-year">
-    </div>
-    <div>
-            <label for="end-year">End Year (Optional) </label>
-            <input type="text" name="end-year">
+        <h2>Top Articles</h2>
+        <div class="articles-here">
+
         </div>
-    <button id="search">Search</button>
-    <button id="clear-results">Clear Results</button>
-</form>
-
-<div>
-    <h2>Top Articles</h2>
-    <div class="articles-here">
-
     </div>
-</div>
-<!-- Javascript and jQuery Links -->
-<script src="https://use.fontawesome.com/75cb0e7187.js"></script>
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
+
+
+    
+    <!-- Javascript and jQuery Links -->
+    <script src="https://use.fontawesome.com/75cb0e7187.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="assets/javascript/scripts.js"></script>
 
+
+</body>
 </html>

@@ -2,5 +2,29 @@
   --dark-blue: #20325A;
   --white: #FFFFFF;
   --light-gray: #F9F9F9;
+  --mid-gray: #cccccc;
   --dark-gray: #1A1A1A;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Maddy is working below this point */
+
+.search-container {
+    margin: 0 auto;
+    width: 90vw;
+    background-color: var(--light-gray);
+    border:1px solid var(--mid-gray);
+}
+
+.search-form {
+    background-color: var(--white);
 }
