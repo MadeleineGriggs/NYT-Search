@@ -16,11 +16,12 @@
     background-color: var(--dark-blue);
     color: var(--white);
     margin-bottom: 2rem;
+  
    
 }
 
 .container {
-    
+
 position: absolute;
 left: 0;
 bottom: 0;
