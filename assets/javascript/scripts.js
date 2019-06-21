@@ -25,8 +25,11 @@
         (response.response.docs).forEach(entry => {
             var title = $("<a>").attr('href', entry.web_url);
             title.text(entry.headline.main);
+            var snippet = $("<p>").text(entry.snippet);
             $(".articles-here").append(title);
-            $(".articles-here").append("<br>")
+            $(".articles-here").append(snippet);
+            $(".articles-here").append("<hr>");
+            $(".articles-here").append("<br>");
             console.log(entry.headline.main);
         // let key = entry[0];
         // let value = entry[1];
