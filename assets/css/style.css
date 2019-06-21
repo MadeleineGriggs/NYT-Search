@@ -1,0 +1,111 @@
+:root {
+  --dark-blue: #20325A;
+  --white: #FFFFFF;
+  --light-gray: #F9F9F9;
+  --mid-gray: #cccccc;
+  --dark-gray: #1A1A1A;
+}
+
+
+
+.nav {
+    text-align: center;
+    margin: 0 1rem;
+    padding: 2rem;
+    font-size: 3rem;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    margin-bottom: 2rem;
+   
+}
+
+.container {
+    
+position: absolute;
+left: 0;
+bottom: 0;
+height: 100px;
+width: 100%;
+text-align: center;
+border-top: groove;
+ 
+
+  
+}
+
+
+
+
+
+
+
+
+/* Maddy is working below this point */
+
+.search-container {
+    margin: 0 auto;
+    width: 90vw;
+    background-color: var(--light-gray);
+    border:1px solid var(--mid-gray);
+    border-radius: 5px;
+}
+
+.search-container h2 {
+    border-bottom: 1px solid var(--mid-gray);
+    padding: 1rem;
+    font-weight: 800;
+}
+
+.search-form {
+    background-color: var(--white);
+}
+
+.search-form div {
+    padding-top: 1rem;
+}
+
+label {
+    margin-left: 5%;
+}
+
+input {
+    border:1px solid var(--mid-gray);
+    border-radius: 3px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#search {
+    background-color: var(--white);
+    border: 1px solid var(--light-gray);
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#clear-results {
+    background-color: var(--white);
+    border: 1px solid var(--light-gray);
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.articles-container {
+
+    margin: 1rem auto;
+    width: 90vw;
+    background-color: var(--light-gray);
+    border:1px solid var(--mid-gray);
+    border-radius: 5px;
+}
+
+.articles-container h2 {
+    border-bottom: 1px solid var(--mid-gray);
+    padding: 1rem;
+    font-weight: 800;
+}
+
+.articles-here {
+    background-color: var(--white);
+}

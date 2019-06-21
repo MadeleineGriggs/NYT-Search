@@ -1,61 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<<<<<<< HEAD
-    
-=======
->>>>>>> fce72eaaa321757c40dd33866d40f2e44098feaf
+
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>NYT Search</title>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+<i class="em em-some-emoji"></i>
 </head>
+
 <body>
-    
-<h1>
-New York Times Search
-</h1>
 
-<form>
-    <div>
-        <label for="search-Term">Search Term: </label>
-        <input type="text" name="search-Term">
-    </div>
-    <div>
-        <label for="number-of-records">Number of Records to Retrieve </label>
-        <input type="number" name="number-of-records">
-    </div>
-    <div>
-        <label for="start-year">Start Year (Optional) </label>
-        <input type="text" name="start-year">
-    </div>
-    <div>
-            <label for="end-year">End Year (Optional) </label>
-            <input type="text" name="end-year">
+    <header id="masthead">
+        <div class="nav">
+            <h1>
+                New York Times Search
+            </h1>
         </div>
-    <button id="search">Search</button>
-    <button id="clear-results">Clear Results</button>
-</form>
+    </header>
 
-<div>
-    <h2>Top Articles</h2>
-    <div class="articles-here">
-
+    <div class="search-container">
+        <h2>Search Parameters</h2>
+        <form class="search-form">
+            <div>
+                <label for="search-Term">Search Term: </label>
+                <br>
+                <input type="text" name="search-Term">
+            </div>
+            <div>
+                <label for="number-of-records">Number of Records
+                    <br>
+                    <input type="number" name="number-of-records">
+            </div>
+            <div>
+                <label for="start-year">Start Year (Optional) </label>
+                <br>
+                <input type="text" name="start-year">
+            </div>
+            <div>
+                <label for="end-year">End Year (Optional) </label>
+                <br>
+                <input type="text" name="end-year">
+            </div>
+            <button id="search">Search</button>
+            <button id="clear-results">Clear Results</button>
+        </form>
     </div>
-</div>
-<!-- Javascript and jQuery Links -->
-<script src="https://use.fontawesome.com/75cb0e7187.js"></script>
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
+
+    <div class="articles-container">
+        <h2>Top Articles</h2>
+        <div class="articles-here">
+            <p>Articles Here</p>
+        </div>
+    </div>
+
+    <footer>
+            <div class="container">
+                <br>
+            
+                Made with and lots of love
+            </div>
+    </footer>
+
+    
+
+    <!-- Javascript and jQuery Links -->
+    <script src="https://use.fontawesome.com/75cb0e7187.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="assets/javascript/scripts.js"></script>
 
-<<<<<<< HEAD
-
 </body>
-=======
->>>>>>> fce72eaaa321757c40dd33866d40f2e44098feaf
 </html>
