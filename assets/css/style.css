@@ -6,48 +6,37 @@
   --dark-gray: #1A1A1A;
 }
 
-
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+}
 
 .nav {
     text-align: center;
-    margin: 0 1rem;
+    margin: 0 auto;
     padding: 2rem;
     font-size: 3rem;
     background-color: var(--dark-blue);
     color: var(--white);
     margin-bottom: 2rem;
-  
-   
 }
 
 .container {
-
   text-align: center;
   border-top: double var(--mid-gray);
   height: 50px ;
-  
-  
-
 }
 
-
-
-
-
-
-
-
-/* Maddy is working below this point */
 
 .search-container {
     margin: 0 auto;
     width: 90vw;
-    background-color: var(--light-gray);
+
     border:1px solid var(--mid-gray);
     border-radius: 5px;
 }
 
 .search-container h2 {
+    background-color: var(--light-gray);
     border-bottom: 1px solid var(--mid-gray);
     padding: 1rem;
     font-weight: 800;
@@ -58,19 +47,19 @@
 }
 
 .search-form div {
-    padding-top: 1rem;
+    margin-top: 1rem;
 }
 
 label {
     margin-left: 5%;
 }
 
-input {
+input[type=text], input[type=number] {
     border:1px solid var(--mid-gray);
     border-radius: 3px;
     width: 90%;
     display: block;
-    margin: 0 auto;
+    margin: 5px auto;
     padding: 5px;
 }
 
@@ -79,6 +68,9 @@ input {
     border: 1px solid var(--light-gray);
     margin-top: 1rem;
     margin-bottom: 1.5rem;
+    margin-left: 5%;
+    margin-right: 1rem;
+    padding: 5px;
 }
 
 #clear-results {
@@ -86,17 +78,18 @@ input {
     border: 1px solid var(--light-gray);
     margin-top: 1rem;
     margin-bottom: 1.5rem;
+    padding: 5px;
 }
 
 .articles-container {
     margin: 1rem auto;
     width: 90vw;
-    background-color: var(--light-gray);
     border:1px solid var(--mid-gray);
     border-radius: 5px;
 }
 
 .articles-container h2 {
+    background-color: var(--light-gray);
     border-bottom: 1px solid var(--mid-gray);
     padding: 1rem;
     font-weight: 800;
