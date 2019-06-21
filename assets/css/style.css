@@ -21,7 +21,10 @@
 .container {
 
   text-align: center;
-  border-top
+  border-top: double var(--mid-gray);
+  height: 50px ;
+  
+  
 
 }
 
@@ -84,7 +87,6 @@ input {
 }
 
 .articles-container {
-
     margin: 1rem auto;
     width: 90vw;
     background-color: var(--light-gray);
